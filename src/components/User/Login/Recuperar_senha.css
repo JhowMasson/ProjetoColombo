@@ -1,0 +1,88 @@
+*{
+	padding: 13px;
+	margin: 0;
+	font-family: 'calibri';
+	font-size: 16px;
+	/* background-color:#0A0A0A ; */
+}
+
+#tela-suporte {
+	display: inline-flex;
+}
+
+/* .img-container {
+	width: 30em;
+	height: 20em;
+} */
+
+body {
+	font-size: 0px;	
+	padding: 0;
+	height: 100%;	
+  	background-color: snow;
+  	margin-top: 4%;
+}
+
+.img-container {
+	display: inline-flex;
+	padding: 5em;
+	margin-left: 8em;
+}
+
+.rec-senha {
+	border-radius: 10px;
+	padding: 25px;
+	width: 450px;
+	margin: 0 auto;
+	background-color: #673486;
+}
+
+#form-rec-senha {
+    margin-top: 65px;
+}
+
+/* tela de login #121212 */
+
+.rec-senha_form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.rec-senha_form-control label {
+  margin-bottom: 5px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.rec-senha_form-control input {
+  border-radius: 5px;
+  border: 1px solid  #43354D;
+  height: 36px;
+  padding: 5px 10px 5px;
+}
+
+.rec-senha_submit-button {
+  width: 92%;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  display: block;
+  padding: 0px;
+}
+
+#suporte-senha:hover{
+	text-decoration: underline;
+}
+
+#suporte-senha{
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+	box-sizing: border-box;
+	display: inline-block;
+	margin: 0px;
+	height: 0px;
+	margin-left: 3px;
+	margin-top: -12px;
+}

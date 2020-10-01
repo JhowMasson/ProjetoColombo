@@ -1,0 +1,150 @@
+*{
+	padding: 13px;
+	margin: 0;
+	font-family: 'calibri';
+	font-size: 16px;
+	/* background-color:#0A0A0A ; */
+}
+
+#tela-login {
+	display: inline-flex;
+}
+
+/* .img-container {
+	width: 30em;
+	height: 20em;
+} */
+
+body {
+	font-size: 0px;	
+	padding: 0;
+	height: 100%;	
+  	background-color: snow;
+  	margin-top: 4%;
+}
+
+.img-container {
+	display: inline-flex;
+	padding: 5em;
+	margin-left: 8em;
+}
+
+.usuario-login {
+	border-radius: 10px;
+	padding: 25px;
+	width: 450px;
+	margin: 0 auto;
+	background-color: #673486;
+}
+
+/* tela de login #121212 */
+
+.usuario-login_form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.usuario-login_form-control label {
+  margin-bottom: 5px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.usuario-login_form-control input {
+  border-radius: 5px;
+  border: 1px solid  #43354D;
+  height: 36px;
+  padding: 5px 10px 5px;
+}
+
+.usuario-login_submit-button {
+  width: 92%;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  display: block;
+  padding: 0px;
+}
+
+#suporte-senha:hover{
+	text-decoration: underline;
+}
+
+#suporte-senha{
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+	box-sizing: border-box;
+	display: inline-block;
+	margin: 0px;
+	height: 0px;
+	margin-left: 3px;
+	margin-top: -12px;
+}
+
+/* nav {
+  text-align: center;
+	margin: 27px auto 0;
+	position: relative;
+	width: 590px;
+	height: 50px;
+	border-radius: 8px;
+	font-size: 0;
+} */
+/* nav a {
+	line-height: 50px;
+	height: 100%;
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	z-index: 1;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+} */
+
+
+/* MENU DE NAVEGAÇÃO DO SITE */
+
+
+/* nav .animation {
+	position: absolute;
+	height: 100%;
+	top: 0;
+	z-index: 0;
+	transition: all .5s ease 0s;
+	border-radius: 8px;
+} */
+
+/* a:nth-child(1) {
+	text-align: center;
+	font-size: x-large;
+	display: inline-block;
+	width: 380px;
+	color: white;
+	text-decoration: none;
+} */
+/* a:nth-child(2) {
+	width: 110px;
+}
+a:nth-child(3) {
+	width: 100px;
+} */
+/* nav .start-home, a:nth-child(1):hover~.animation {
+	width: 100px;
+	left: 138px;
+	background-color: #43354D;
+}
+nav .start-about, a:nth-child(2):hover~.animation {
+	width: 110px;
+	left: 240px;
+	background-color: #43354D;
+}
+nav .start-blog, a:nth-child(3):hover~.animation {
+	width: 100px;
+	left: 350px;
+	background-color: #43354D;
+} */
